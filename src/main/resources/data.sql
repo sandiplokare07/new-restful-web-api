@@ -24,3 +24,12 @@ values(205,'I learn MySQL',103);
 
 insert into post(id,description,user_id)
 values(206,'I learn OracleSQL',103);
+
+insert into todo (id,description,done,target_date,username)
+values (1001,'Learn Spring boot',false,CURRENT_DATE(),'sandip');
+
+insert into todo (id,description,done,target_date,username)
+values (1002,'Learn Spring ',false,CURRENT_DATE(),'sandip');
+
+insert into todo (id,description,done,target_date,username)
+values (1003,'Learn Spring JPA',false,CURRENT_DATE(),'sandip');
